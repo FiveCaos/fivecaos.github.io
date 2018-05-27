@@ -1,5 +1,7 @@
 
 
+
+
 /* CSS INDEX */
 
 * {
@@ -9,7 +11,8 @@
 html, body {
 	padding: 0 0 50px;
  	margin: 0;
-	overflow: hidden;
+	overflow-y: visible;
+	overflow-x: hidden;
 }
 body {
 	background: #101010;
@@ -20,24 +23,16 @@ header {
 	width: 100%;
 	height: 65px;
 	border-radius: 0 0 5px 5px;
-}
-img.logo {
-	position: relative;
-	height: 65px;
+	text-align: center;
+	position: fixed; /* CABECERA FIJA */
 }
 div.intro {
-	float: right;
+	position: fixed;
+	top: 60px;
 }
 li.sub {
 	list-style: none;
 	width: 50px;
-}
-
-img.menuc {
-	position: absolute;
-	border-radius: 50px;
-	width: 60px;
-	top: -65px;
 }
 
 li.sub ul {
@@ -65,6 +60,16 @@ li#en {
 	list-style: none;
 	background: transparent;
 }
+
+section {
+	text-align: center;
+	margin-top: 108Px;
+}
+
+section p {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
 /*IMAGENES DE ENLACES*/
 img.b{
 	width: 35px;
@@ -73,12 +78,16 @@ img.b{
 }
 
 @media screen and (min-width: 768px){
-
-	img.logo {
-		height: 100px;
-		left: 50px;
+	img.b{
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
 	}
  }
+
+
+
+
 
 
 
