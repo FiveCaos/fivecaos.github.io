@@ -1,96 +1,68 @@
 
-/* CSS INDEX */
-
-* {
-	margin: 0;
+*{
 	padding: 0;
+	margin: 0;
 }
+
 html, body {
-	padding: 0 0 50px;
+	padding: 0;
  	margin: 0;
-	overflow-y: visible;
-	overflow-x: hidden;
 }
+
 body {
 	background: black;
 	color: white;
 }
-header {
-	background: black;
-	width: 100%;
-	height: 35px;
-	border-radius: 0 0 5px 5px;
+
+.cabe {
 	text-align: center;
-	position: fixed; /* CABECERA FIJA */
 }
+
 .logo {
 	width: 200px;
-	position: fixed;
-}
-div.intro {
-	position: fixed;
-	top: 60px;
-}
-li.sub {
-	list-style: none;
-	width: 50px;
 }
 
-li.sub ul {
-	display: none;
-}
-li.sub:hover ul {
-	display: block;
+a {
+	text-decoration: none;
 }
 
-li.sub {
+.enla {
+	text-align: center;
+}
+
+.foto {
+	width: 30px;
+	border-radius: 50%;
+	height: 30px;
+	margin-left: 20px;
+	top: -10px;
 	position: relative;
 }
 
-li.sub:hover ul {
-	display: block;
-	position: absolute;
-	top: -10px;
-	left: 2px;
-	margin: 0;
-	background: transparent;
-	list-style: none;
-}
-
-li#en {
-	list-style: none;
-	background: transparent;
-}
-
-section {
+.section {
 	text-align: center;
-	margin-top: 108Px;
 }
 
-section p {
-	font-size: 20px;
-	letter-spacing: 1px;
-}
-/*IMAGENES DE ENLACES*/
-img.b{
-	width: 30px;
-	height: 30px;
-	border-radius: 50px;
-}
+@media screen and (min-width: 768px) {
 
-@media screen and (min-width: 768px){
-	
+	header {
+		height: 60px;
+	}
+
 	.logo {
-		width: 250px;
+		height: 75px;
+		width: 300px;
 	}
 
-	img.b{
+	.foto {
 		width: 40px;
+		border-radius: 50%;
 		height: 40px;
-		border-radius: 50px;
-	}
- }
-
+		margin-left: 20px;
+		top: -10px;
+		position: relative;
+	 }
+}
 
 
 
