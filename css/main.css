@@ -25,6 +25,7 @@ header {
 }
 .logo {
 	width: 200px;
+	position: fixed;
 }
 div.intro {
 	position: fixed;
